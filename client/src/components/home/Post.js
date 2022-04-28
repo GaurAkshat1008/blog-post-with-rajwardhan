@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
         padding:10
     }
 
-}))
+}))  
 
 function Post({ post }) {
     const classes = useStyles()

@@ -25,7 +25,7 @@ function Posts() {
             console.log(data)
             setPosts(data)
         }
-        fetchData()
+        fetchData()  
     }, [search])
     return (
         <div>

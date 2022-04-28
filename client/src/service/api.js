@@ -1,5 +1,5 @@
 import axios from 'axios'
-
+  
 const URL = 'http://localhost:8000'
 
 export const createPost = async (post) => {
@@ -9,7 +9,7 @@ export const createPost = async (post) => {
         console.log('error while calling createPost API', error)
     }
 }
-
+  
 export const getAllPosts = async (params) =>{
   try {
     let response = await axios.get(`${URL}/posts${params}`)
